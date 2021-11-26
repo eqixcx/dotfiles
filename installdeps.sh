@@ -75,3 +75,8 @@ echo -------------------------------
 echo Clearing temp yay install files
 rm -rf /tmp/yayinstall
 
+# setup wallpapers
+clear
+echo Installing feh to manage the wallpaper
+echo --------------------------------------
+sudo pacman -S feh
