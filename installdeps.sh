@@ -11,7 +11,7 @@ sudo pacman -Syy
 clear 
 echo Installing base xorg and i3-gaps
 echo --------------------------------
-sudo pacman -S xorg-server xorg-apps xorg-xinit i3-gaps i3status i3lock --noconfirm
+sudo pacman -S xorg-server xorg-apps xorg-xinit i3-gaps i3status i3lock network-manager-applet --noconfirm
 
 # install other utilities that i like to use on arch
 clear
