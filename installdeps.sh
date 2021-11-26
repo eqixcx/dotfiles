@@ -21,7 +21,7 @@ sudo pacman -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pasystray --nocon
 # install bluetooth drivers and frontend
 echo Installing Bluetooth and frontend
 echo ---------------------------------
-sudo pacman -S bluez bluez-utils blueberry
+sudo pacman -S bluez bluez-utils blueberry --noconfirm
 sudo systemctl enable bluetooth.service
 
 # install other utilities that i like to use on arch
@@ -71,3 +71,7 @@ cd /tmp/yayinstall
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
+echo -------------------------------
+echo Clearing temp yay install files
+rm -rf /tmp/yayinstall
+
