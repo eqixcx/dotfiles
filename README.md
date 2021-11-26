@@ -1,4 +1,4 @@
-## dotfiles
+# dotfiles
 
 these are my dotfiles for arch linux
 
@@ -8,7 +8,7 @@ i most likely won't provide much support for this as "it works enough for me" so
 
 the included 'installdeps.sh' script also installs many utilities i use on my personal machine, please read through the script before running it on your machine to ensure you are okay with installing all of the packages included in the script
 
-### Shortcuts
+## Shortcuts
 
 By Default the key is default (Normally WIN Key)
 
@@ -32,10 +32,10 @@ Leave i3 - Mod+Shift+E
 
 Power Menu - Mod+Shift+P
 
-### Troubleshooting
+## Troubleshooting
 
-##### Rofi Setup
+#### Rofi Setup
 When you reach the Rofi setup, you will be prompted to choose between 1080p and 768p, obviously a lot of people have other display formats and resolutions, so if one doesn't work for you, try the other.
 
-#### Credits
+## Credits
 [Rofi Things](https://github.com/adi1090x/rofi)
