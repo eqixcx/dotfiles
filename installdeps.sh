@@ -14,11 +14,28 @@ echo --------------------------------
 sudo pacman -S xorg-server xorg-apps xorg-xinit i3-gaps i3status i3lock network-manager-applet --noconfirm
 
 # install pulseaudio and other utilities
+clear
 echo Installing Pulseaudio and other utilities
 echo -----------------------------------------
 sudo pacman -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pasystray --noconfirm
 
+# install rofi for app menu
+clear
+echo Installing Rofi
+echo --------------------------
+mkdir /tmp/rofisetup
+cd /tmp/rofisetup
+sudo pacman -S rofi --noconfirm
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+cd rofi
+chmod +x setup.sh
+clear
+echo Running Rofi Theme Installer from adi1090x@github
+./setup.sh
+rm -rf /tmp/rofisetup
+
 # install bluetooth drivers and frontend
+clear
 echo Installing Bluetooth and frontend
 echo ---------------------------------
 sudo pacman -S bluez bluez-utils blueberry --noconfirm
@@ -80,3 +97,5 @@ clear
 echo Installing feh to manage the wallpaper
 echo --------------------------------------
 sudo pacman -S feh
+
+## TODO: COMPLETE INSTALLER, GIVE INSTRUCTIONS FOR NEXT STEPS
