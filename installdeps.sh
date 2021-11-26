@@ -52,10 +52,10 @@ sudo systemctl enable lightdm
 clear
 echo Installing and making Zsh default shell
 echo ---------------------------------------
-sudo pacman -S zsh
+sudo pacman -S zsh --noconfirm
 
 # install lxappearance and some icon and gtk themes 
 clear
 echo Installing lxappearance to change themes
 echo ----------------------------------------
-sudo pacman -S lxappearance-gtk3
+sudo pacman -S lxappearance-gtk3 --noconfirm
