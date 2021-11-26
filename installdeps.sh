@@ -22,7 +22,7 @@ sudo pacman -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pasystray --nocon
 # install rofi for app menu
 clear
 echo Installing Rofi
-echo --------------------------
+echo ---------------
 mkdir /tmp/rofisetup
 cd /tmp/rofisetup
 sudo pacman -S rofi --noconfirm
