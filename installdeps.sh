@@ -34,6 +34,7 @@ echo Running Rofi Theme Installer from adi1090x@github
 ./setup.sh
 rm -rf /tmp/rofisetup
 
+
 # install bluetooth drivers and frontend
 clear
 echo Installing Bluetooth and frontend
@@ -98,4 +99,5 @@ echo Installing feh to manage the wallpaper
 echo --------------------------------------
 sudo pacman -S feh
 
-## TODO: COMPLETE INSTALLER, GIVE INSTRUCTIONS FOR NEXT STEPS
+chmod +x ./copytoconfig.sh
+./copytoconfig.sh
