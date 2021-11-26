@@ -53,9 +53,21 @@ clear
 echo Installing and making Zsh default shell
 echo ---------------------------------------
 sudo pacman -S zsh --noconfirm
+# TODO: ADD ZSH SWAP
 
 # install lxappearance and some icon and gtk themes 
 clear
 echo Installing lxappearance to change themes
 echo ----------------------------------------
 sudo pacman -S lxappearance-gtk3 --noconfirm
+
+## experimental
+# install yay (idk if this will work)
+clear
+echo Installing yay package manager
+echo ------------------------------
+mkdir /tmp/yayinstall
+cd /tmp/yayinstall
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si --noconfirm
