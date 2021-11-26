@@ -55,7 +55,7 @@ bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+semicolon move right
 
-# alternatively, you can use the cursor keys:
+# alternatively you can use te arrow keys
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -67,11 +67,8 @@ bindsym $mod+h split h
 # split in vertical orientation
 bindsym $mod+v split v
 
-# change container layout (stacked, tabbed, toggle split)
+# change container layout (toggle split only)
 bindsym $mod+e layout toggle split
-
-# focus the parent container
-bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
