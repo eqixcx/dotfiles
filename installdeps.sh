@@ -39,3 +39,9 @@ clear
 echo Installing and making Zsh default shell
 echo ---------------------------------------
 sudo pacman -S zsh
+
+# install lxappearance and some icon and gtk themes 
+clear
+echo Installing lxappearance to change themes
+echo ----------------------------------------
+sudo pacman -S lxappearance-gtk3
