@@ -97,7 +97,4 @@ rm -rf /tmp/yayinstall
 clear
 echo Installing feh to manage the wallpaper
 echo --------------------------------------
-sudo pacman -S feh
-
-chmod +x ./copytoconfig.sh
-./copytoconfig.sh
+sudo pacman -S feh --noconfirm
