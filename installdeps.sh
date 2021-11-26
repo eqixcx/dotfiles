@@ -16,7 +16,7 @@ sudo pacman -S xorg-server xorg-apps xorg-xinit i3-gaps i3status i3lock network-
 # install pulseaudio and other utilities
 echo Installing Pulseaudio and other utilities
 echo -----------------------------------------
-sudo pacman -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pasystray
+sudo pacman -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pasystray --noconfirm
 
 # install bluetooth drivers and frontend
 echo Installing Bluetooth and frontend
@@ -62,7 +62,7 @@ echo ----------------------------------------
 sudo pacman -S lxappearance-gtk3 --noconfirm
 
 ## experimental
-# install yay (idk if this will work)
+# install yay (idk if this will work - appears to be working)
 clear
 echo Installing yay package manager
 echo ------------------------------
