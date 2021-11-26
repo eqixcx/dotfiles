@@ -6,3 +6,7 @@ cp ~/.config/launcher.sh ~/.config/rofi/launchers/text/
 rm ~/.config/installdeps.sh
 rm ~/.config/launcher.sh
 rm ~/.config/README.md
+cp ~/.config/style_5.rasi ~/.config/rofi/launchers/text/
+rm ~/.config/style_5.rasi
+cp ~/.config/colors.rasi ~/.config/rofi/applets/android/colors.rasi
+rm ~/.config/colors.rasi
