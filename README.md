@@ -38,4 +38,6 @@ Power Menu - Mod+Shift+P
 When you reach the Rofi setup, you will be prompted to choose between 1080p and 768p, obviously a lot of people have other display formats and resolutions, so if one doesn't work for you, try the other.
 
 ## Credits
-[Rofi Things](https://github.com/adi1090x/rofi)
+[Rofi Things - adi1090x](https://github.com/adi1090x/rofi)
+
+[MacOS 9 Wallpaper - me & Apple](https://github.com/eqixcx/macos-wallpapers)
