@@ -21,7 +21,7 @@ sudo pacman -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pasystray
 # install bluetooth drivers and frontend
 echo Installing Bluetooth and frontend
 echo ---------------------------------
-sudo pacman -S bluez bluez-utils
+sudo pacman -S bluez bluez-utils blueberry
 sudo systemctl enable bluetooth.service
 
 # install other utilities that i like to use on arch
