@@ -1,5 +1,7 @@
 # dotfiles
 
+*semi finished* - not really
+
 these are my dotfiles for arch linux
 
 it is based on the i3-gaps desktop environment
