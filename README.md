@@ -10,7 +10,27 @@ the included 'installdeps.sh' script also installs many utilities i use on my pe
 
 ### Shortcuts
 
-*TODO*
+By Default the key is default (Normally WIN Key)
+
+Open Terminal - Mod+Enter
+
+Kill Current Window - Mod+Shift+Q
+
+Open dmenu (simple launcher at top of screen) - Mod+D
+
+Open Rofi - Mod+Space
+
+Change Workspace - Mod+(1-10)
+
+Move Focused app to another workspace - Mod+(1-10)
+
+Reload Config - Mod+Shift+C
+
+Restart i3 - Mod+Shift+R
+
+Leave i3 - Mod+Shift+E
+
+Power Menu - Mod+Shift+P
 
 ### Troubleshooting
 
