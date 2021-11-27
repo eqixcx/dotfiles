@@ -19,6 +19,12 @@ echo Installing Pulseaudio and other utilities
 echo -----------------------------------------
 sudo pacman -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pasystray --noconfirm
 
+# install terminal
+clear
+echo Installing Terminal
+echo -----------------------------------------
+sudo pacman -S rxvt-unicode --noconfirm
+
 # install rofi for app menu
 clear
 echo Installing Rofi
@@ -58,7 +64,7 @@ sudo pacman -S lightdm lightdm-gtk-greeter --noconfirm
 clear
 echo Installing extra fonts
 echo ----------------------
-sudo pacman -S noto-fonts ttf-ubuntu-font-family ttf-dejavu ttf-freefont ttf-liberation ttf-droid ttf-inconsolata ttf-roboto terminus-font ttf-font-awesome --noconfirm
+sudo pacman -S noto-fonts ttf-ubuntu-font-family ttf-dejavu ttf-freefont ttf-liberation ttf-droid ttf-inconsolata ttf-roboto terminus-font ttf-font-awesome ttf-ibm-plex --noconfirm
 
 # enable lightdm as display manager
 clear
